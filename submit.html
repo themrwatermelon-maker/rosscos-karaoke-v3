@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submit Your Song</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="event-name"></h1>
+    <form id="song-form">
+      <input type="text" id="singer-name" placeholder="Your Name" required />
+      <input type="text" id="song-title" placeholder="Song Title" required />
+      <input type="text" id="song-artist" placeholder="Artist" required />
+      <label><input type="checkbox" required /> I agree to the Code of Conduct</label>
+      <button type="submit">Submit</button>
+    </form>
+    <h2>Next Up</h2>
+    <ul id="queue"></ul>
+  </div>
+  <script type="module" src="scripts/submit.js"></script>
+</body>
+</html>
